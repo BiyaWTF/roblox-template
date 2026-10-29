@@ -15,7 +15,8 @@ al cerrar cada tarea.
   luau-reviewer → studio-tester → playtest del usuario → commit).
 - `/publicar <versión>`: checklist de publicación.
 - Subagentes: `luau-reviewer` (revisión, solo lectura), `studio-tester` (pruebas
-  en Studio vía MCP), `roblox-docs` (documentación oficial actual).
+  en Studio vía MCP), `roblox-docs` (documentación oficial actual),
+  `roblox-market` (mercado actual de Roblox: géneros, tendencias, monetización).
 - Hook: cada Edit/Write de `.luau` pasa StyLua y Selene (`.claude/hooks/format-luau.ps1`).
 - No cerrar las respuestas con opciones cerradas: el usuario analiza y decide.
 
