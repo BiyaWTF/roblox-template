@@ -70,6 +70,7 @@ luau-lsp analyze --platform=roblox --definitions=@roblox=globalTypes.d.luau --so
 - No se versionan: `sourcemap.json`, `globalTypes.d.luau`, `*.rbxl(x)`, `*.lock`, `build/`.
 - `.gitattributes` fuerza LF (el Git global tiene `core.autocrlf=true`).
 - Commits en español, en imperativo y descriptivos. Commit y push solo con OK del usuario.
+- Sin línea `Co-Authored-By` ni otra atribución a Claude en commits ni PRs.
 
 ## Antes de dar algo por terminado
 1. `stylua --check src` y `selene src` sin errores.
