@@ -1,0 +1,6 @@
+# Finales de línea LF en el repo (StyLua usa line_endings = "Unix")
+* text=auto eol=lf
+
+# Archivos binarios de Roblox
+*.rbxl binary
+*.rbxm binary

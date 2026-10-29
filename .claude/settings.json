@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(rojo *)",
+      "PowerShell(stylua *)",
+      "PowerShell(selene *)",
+      "PowerShell(luau-lsp *)",
+      "Bash(rojo *)",
+      "Bash(stylua *)",
+      "Bash(selene *)",
+      "Bash(luau-lsp *)",
+      "mcp__Roblox_Studio__list_roblox_studios",
+      "mcp__Roblox_Studio__get_studio_state",
+      "mcp__Roblox_Studio__get_console_output",
+      "mcp__Roblox_Studio__search_game_tree",
+      "mcp__Roblox_Studio__inspect_instance",
+      "mcp__Roblox_Studio__script_read",
+      "mcp__Roblox_Studio__script_search",
+      "mcp__Roblox_Studio__script_grep",
+      "mcp__Roblox_Studio__screen_capture"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe",
+            "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${CLAUDE_PROJECT_DIR}/.claude/hooks/format-luau.ps1"],
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

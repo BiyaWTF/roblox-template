@@ -1,0 +1,13 @@
+# Project place files (se generan con Studio o rojo build)
+*.rbxl
+*.rbxlx
+/build/
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
+
+# Definiciones de tipos de Roblox para luau-lsp analyze (se descargan)
+globalTypes.d.luau
