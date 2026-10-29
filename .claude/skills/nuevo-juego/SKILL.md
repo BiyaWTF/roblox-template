@@ -3,6 +3,8 @@ name: nuevo-juego
 description: Diseña un juego nuevo con el usuario mediante una entrevista y genera docs/DESIGN.md y docs/BACKLOG.md.
 argument-hint: [nombre-del-juego]
 disable-model-invocation: true
+model: opus
+effort: high
 ---
 Vamos a diseñar el juego "$ARGUMENTS". En esta skill NO se escribe código.
 

@@ -3,6 +3,8 @@ name: feature
 description: Implementa una funcionalidad del BACKLOG siguiendo el flujo completo (plan, código, calidad, revisión, test en Studio, playtest, commit).
 argument-hint: [F-00X]
 disable-model-invocation: true
+model: opus
+effort: high
 ---
 Funcionalidad a implementar: $ARGUMENTS (si está vacío, la primera pendiente del BACKLOG).
 Una funcionalidad por sesión.

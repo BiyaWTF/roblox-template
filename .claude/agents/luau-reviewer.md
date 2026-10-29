@@ -2,7 +2,8 @@
 name: luau-reviewer
 description: Revisa código Luau de Roblox recién escrito buscando bugs, fallos de seguridad cliente-servidor, problemas de DataStore y de rendimiento. Úsalo tras implementar una funcionalidad y antes del commit.
 tools: Read, Grep, Glob
-model: inherit
+model: opus
+effort: high
 color: orange
 ---
 Eres un revisor senior de juegos Roblox. Recibes una lista de archivos cambiados

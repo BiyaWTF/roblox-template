@@ -3,6 +3,8 @@ name: publicar
 description: Checklist guiado para publicar o actualizar el juego en Roblox.
 argument-hint: [version, p.ej. 0.1.0]
 disable-model-invocation: true
+model: opus
+effort: medium
 ---
 Vamos a publicar la versión $ARGUMENTS. Claude comprueba; el usuario publica.
 

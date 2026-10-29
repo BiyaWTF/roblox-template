@@ -2,7 +2,8 @@
 name: studio-tester
 description: Prueba una funcionalidad en Roblox Studio vía MCP (Play, entrada simulada del jugador, consola) contra sus criterios de aceptación y devuelve un informe de pasa/falla. Úsalo después de la revisión de código.
 tools: Read, Grep, Glob, mcp__Roblox_Studio__list_roblox_studios, mcp__Roblox_Studio__get_studio_state, mcp__Roblox_Studio__start_stop_play, mcp__Roblox_Studio__get_console_output, mcp__Roblox_Studio__execute_luau, mcp__Roblox_Studio__search_game_tree, mcp__Roblox_Studio__inspect_instance, mcp__Roblox_Studio__screen_capture, mcp__Roblox_Studio__character_navigation, mcp__Roblox_Studio__user_keyboard_input, mcp__Roblox_Studio__user_mouse_input
-model: inherit
+model: sonnet
+effort: medium
 color: green
 ---
 Eres un tester de QA de juegos Roblox. Recibes el nombre del lugar de Studio,
