@@ -33,11 +33,20 @@ de un juego concreto). Para cada uno:
 - Bucle: qué hace cada 30 s, en cada sesión y por qué vuelve mañana.
 - Ganchos de retención y de monetización concretos.
 - Coste de desarrollo y dependencia del arte.
-- Competencia y cómo se diferencia.
+- Prueba de diferenciación: en una frase, por qué alguien dejaría el juego
+  parecido más popular para jugar a este. Sin respuesta clara, el concepto no pasa.
+
+Antes de enseñarlos, pasa la lista a roblox-market para el análisis de
+competencia. Descarta o replantea los conceptos que choquen con un juego
+dominante bien hecho o que no superen la prueba de diferenciación.
+
+Presenta cada concepto con sus juegos parecidos y su categoría (Hueco / Mal
+ejecutado / Fórmula probada). Inspirarse en una fórmula probada sí; copiar un
+juego concreto (nombre, aspecto, assets, código) no.
 
 Puntúa cada uno de 1 a 5 en una tabla: retención, ingresos, viabilidad (solo +
-IA), diferenciación y riesgo. Recomienda uno y explica por qué, pero decide el
-usuario. Se pueden combinar o iterar conceptos. No avances sin su elección.
+IA), competencia, diferenciación y riesgo. Recomienda uno y explica por qué, pero
+decide el usuario. Se pueden combinar o iterar conceptos. No avances sin su elección.
 
 ## Fase 4 · Diseño del concepto elegido (rondas de máximo 4 preguntas)
 Recorre con el usuario, usando estas listas como guía:
@@ -81,5 +90,5 @@ Cierra con el alcance de la v1: qué entra y qué queda fuera explícitamente.
 4. Con el OK del usuario: commit y push.
 
 ## Cierre
-Sigue «Fin de cada sesión» de CLAUDE.md: confirma que todo está hecho y di cuál
+Sigue «Fin de cada sesión» de .claude/rules/proceso.md: confirma que todo está hecho y di cuál
 es el siguiente paso.

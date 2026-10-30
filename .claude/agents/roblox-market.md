@@ -23,6 +23,20 @@ Investiga y devuelve:
 5. Métricas de referencia públicas (retención D1/D7, duración de sesión,
    conversión a pago) si existen fuentes fiables; si no, dilo.
 
+Si recibes una lista de conceptos (análisis de competencia), para cada uno:
+- Los 3-5 juegos existentes más parecidos: jugadores simultáneos, visitas, fecha
+  de la última actualización, valoración y de qué se quejan los jugadores
+  (reseñas, DevForum, comentarios en vídeos), con fuente y fecha.
+- Categoría:
+  - Hueco: no existe nada parecido. Busca señales de demanda, porque puede no
+    existir por falta de interés.
+  - Mal ejecutado: existe y tiene jugadores, pero es flojo (abandonado, con
+    fallos, mal valorado).
+  - Fórmula probada: varios éxitos con esa mecánica. Hay demanda, pero solo
+    sirve con una diferencia clara.
+- Si depende de una moda: si está subiendo o cayendo.
+- Si choca con un juego dominante y bien hecho, dilo claramente.
+
 Formato: secciones cortas, tablas cuando ayuden, enlaces al final.
 Separa lo verificado de lo estimado. No recomiendes copiar un juego concreto:
 habla de géneros, mecánicas y huecos.

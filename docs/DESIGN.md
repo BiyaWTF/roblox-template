@@ -10,7 +10,13 @@
 
 ## Investigación de mercado
 - Por qué este género ahora (datos, fuentes y fecha):
-- Competencia y cómo nos diferenciamos:
+
+## Competencia
+- Categoría: Hueco | Mal ejecutado | Fórmula probada
+- Prueba de diferenciación (en una frase):
+
+| Juego parecido | Jugadores / visitas | Última actualización | Puntos débiles |
+|---|---|---|---|
 
 ## Conceptos descartados
 - <concepto>: motivo.

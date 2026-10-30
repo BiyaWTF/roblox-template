@@ -21,7 +21,10 @@ Revisa, por orden de importancia:
    búsquedas repetidas (FindFirstChild en bucles calientes).
 5. Corrección: errores de lógica, casos límite (jugador sale a mitad, valores nil),
    condiciones de carrera.
-6. Convenciones de CLAUDE.md: --!strict, task.*, GetService, nombres de archivo.
+6. Mundo y replicación: partes creadas por código sin `Anchored` que deberían
+   estarlo; dependencia del orden de `pairs` donde se necesita reproducibilidad;
+   código de cliente que asume tener cargadas partes lejanas (StreamingEnabled).
+7. Convenciones de .claude/rules/luau.md: --!strict, task.*, GetService, nombres de archivo.
 
 Formato de respuesta:
 - Una lista de hallazgos, de más grave a menos: [CRÍTICO|ALTO|MEDIO|BAJO]

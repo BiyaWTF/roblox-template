@@ -10,9 +10,19 @@ Funcionalidad a implementar: $ARGUMENTS (si está vacío, la primera pendiente d
 Una funcionalidad por sesión.
 
 1. Contexto: lee CLAUDE.md, docs/DESIGN.md, docs/BACKLOG.md y docs/DECISIONS.md.
-2. Plan: archivos a crear o cambiar, RemoteEvents (con su validación), datos
-   persistentes, criterios de aceptación. Enséñalo y espera aprobación.
-   Si usa APIs nuevas, consulta antes al subagente roblox-docs.
+2. Plan, con estos apartados:
+   - Archivos a crear o cambiar.
+   - RemoteEvents (con su validación) y datos persistentes.
+   - Cambios de configuración del lugar o del proyecto (default.project.json,
+     propiedades de Workspace o StarterPlayer), marcados aparte porque afectan
+     a todo el juego.
+   - Criterios de aceptación y cómo se comprueba cada uno (studio-tester o
+     playtest del usuario).
+   - Fuera de alcance: lo que no se hace en esta funcionalidad.
+   - Riesgos y supuestos: streaming, física, rendimiento, valores por defecto.
+   Enséñalo y espera aprobación. Si usa APIs nuevas, consulta antes a roblox-docs.
+   Si el usuario corrige el plan después de aprobarlo, aplica la corrección y
+   anótala como mejora del proceso si el plan debió preverla.
 3. Implementa en src/ siguiendo CLAUDE.md. El hook formatea y pasa Selene en cada
    edición; corrige lo que reporte.
 4. Calidad completa: stylua --check src, selene src y luau-lsp analyze (comando en
@@ -30,5 +40,5 @@ Una funcionalidad por sesión.
 7. Pide al usuario que lo juegue. Aplica sus cambios y repite 4-6 si son de código.
 8. Cierre, con OK del usuario: marca la funcionalidad como hecha en BACKLOG (con
    notas), añade a DECISIONS lo decidido, commit en español y push.
-9. Sigue «Fin de cada sesión» de CLAUDE.md: confirma que todo está hecho y di
+9. Sigue «Fin de cada sesión» de .claude/rules/proceso.md: confirma que todo está hecho y di
    cuál es el siguiente paso.
