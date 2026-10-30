@@ -25,4 +25,5 @@ Una funcionalidad por sesión.
 7. Pide al usuario que lo juegue. Aplica sus cambios y repite 4-6 si son de código.
 8. Cierre, con OK del usuario: marca la funcionalidad como hecha en BACKLOG (con
    notas), añade a DECISIONS lo decidido, commit en español y push.
-   Recomienda cerrar la sesión o usar /clear antes de la siguiente funcionalidad.
+9. Sigue «Fin de cada sesión» de CLAUDE.md: confirma que todo está hecho y di
+   cuál es el siguiente paso.

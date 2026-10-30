@@ -18,3 +18,5 @@ Vamos a publicar la versión $ARGUMENTS. Claude comprueba; el usuario publica.
    género, dispositivos, game passes y productos creados y con precio.
 5. El usuario publica desde Studio (Archivo → Publicar en Roblox).
 6. Commit, etiqueta git v$ARGUMENTS, push con etiquetas y nota en DECISIONS.
+7. Sigue «Fin de cada sesión» de CLAUDE.md: confirma que todo está hecho y di
+   cuál es el siguiente paso.

@@ -78,5 +78,8 @@ Cierra con el alcance de la v1: qué entra y qué queda fuera explícitamente.
 3. Pon el nombre del juego en CLAUDE.md (título y repo) y en el campo "name" de
    default.project.json. Registra en docs/DECISIONS.md las decisiones de diseño
    y por qué se descartaron los otros conceptos.
-4. Con el OK del usuario: commit y push. Termina recordando que la siguiente
-   sesión empieza con /feature F-001.
+4. Con el OK del usuario: commit y push.
+
+## Cierre
+Sigue «Fin de cada sesión» de CLAUDE.md: confirma que todo está hecho y di cuál
+es el siguiente paso.

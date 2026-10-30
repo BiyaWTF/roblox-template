@@ -20,6 +20,29 @@ al cerrar cada tarea.
 - Hook: cada Edit/Write de `.luau` pasa StyLua y Selene (`.claude/hooks/format-luau.ps1`).
 - No cerrar las respuestas con opciones cerradas: el usuario analiza y decide.
 
+## Fin de cada sesión
+Cada skill termina con este cierre. No la des por terminada hasta cumplirlo.
+1. Comprueba: documentos actualizados (BACKLOG, DECISIONS), calidad en verde si
+   hubo código, commit y push hechos con OK del usuario y `git status` limpio.
+2. Si falta algo, dilo claramente y NO anuncies el final.
+3. Mensaje final, siempre con este formato:
+   ✅ /<skill> terminada: <qué se ha conseguido, en una frase>
+   - Hecho: <puntos clave>
+   - Git: <commit> subido (o qué falta)
+   - Siguiente paso: cierra esta sesión, abre una nueva en <carpeta del juego>
+     y ejecuta `<comando>` (<nombre de la funcionalidad o tarea>).
+   - Antes de empezar: <preparación concreta>
+4. Cómo elegir el siguiente comando (mirando docs/BACKLOG.md):
+   - Tras /nuevo-juego: `/feature` con la primera funcionalidad pendiente.
+   - Tras /feature: la siguiente pendiente del mismo hito.
+   - Hito completado: si es publicable (hito 2 en adelante), `/publicar <versión>`;
+     si es el prototipo, la primera del siguiente hito (publicar solo si el
+     usuario quiere probarlo con amigos). Explica la opción.
+   - Tras /publicar: la primera pendiente del siguiente hito, y revisar las
+     métricas del Creator Hub pasados unos días.
+   - BACKLOG sin pendientes: proponer con el usuario el siguiente hito.
+   Preparación típica: para /feature, Studio abierto con el lugar del juego
+   (Claude arranca `rojo serve`); para /publicar, el lugar guardado en Studio.
 ## Entorno
 - Windows 11 Pro · PowerShell · VS Code · Git → GitHub
 - Herramientas fijadas en `rokit.toml` (binarios en `%USERPROFILE%\.rokit\bin`):
