@@ -5,7 +5,7 @@
 
 ## Estado del proyecto (leer siempre al empezar)
 - `docs/DESIGN.md`: qué juego es.
-- `docs/BACKLOG.md`: funcionalidades, su estado y criterios de aceptación.
+- `docs/BACKLOG.md`: funcionalidades por hito, su estado y criterios, y Propuestas.
 - `docs/DECISIONS.md`: decisiones tomadas y su motivo.
 - `docs/MEJORAS-PROCESO.md`: mejoras del proceso detectadas, pendientes de llevar al molde.
 La memoria del proyecto son estos archivos y Git, no la conversación: actualízalos
@@ -24,9 +24,20 @@ al cerrar cada tarea.
 - No modificar `.claude/` ni los archivos de configuración comunes en un juego:
   vienen del molde. Las mejoras se anotan en `docs/MEJORAS-PROCESO.md`.
 
+## Backlog vivo
+- `/nuevo-juego` lo crea con el hito 1 detallado y el resto en esbozo.
+- Cualquier idea que surja en cualquier sesión va a Propuestas (con origen y
+  fecha). Nunca se implementa sin que el usuario la apruebe.
+- Si un cambio afecta a una funcionalidad pendiente, se actualiza y se deja
+  constancia en su apartado Cambios.
+- El usuario puede pedir en cualquier sesión añadir, quitar o reordenar.
+- Un hito en esbozo se detalla (Propuestas revisadas y criterios escritos) al
+  empezar su primera funcionalidad, en esa misma sesión de `/feature`.
+
 ## Fin de cada sesión
 Cada skill termina con este cierre. No la des por terminada hasta cumplirlo.
-1. Comprueba: documentos actualizados (BACKLOG, DECISIONS), calidad en verde si
+1. Comprueba: documentos actualizados (BACKLOG con las Propuestas nuevas
+   revisadas con el usuario, DECISIONS), calidad en verde si
    hubo código, commit y push hechos con OK del usuario y `git status` limpio.
 2. Mejoras del proceso: repasa la sesión (fallos de una skill, pasos ambiguos,
    correcciones que tuvo que hacer el usuario, cosas que el revisor o el tester
@@ -36,6 +47,7 @@ Cada skill termina con este cierre. No la des por terminada hasta cumplirlo.
 4. Mensaje final, siempre con este formato:
    ✅ /<skill> terminada: <qué se ha conseguido, en una frase>
    - Hecho: <puntos clave>
+   - Backlog: <propuestas nuevas, aprobadas y funcionalidades cambiadas, o sin cambios>
    - Mejoras del proceso anotadas: <cuántas, o ninguna>
    - Git: <commit> subido (o qué falta)
    - Siguiente paso: cierra esta sesión, abre una nueva en <carpeta del juego>
@@ -46,10 +58,12 @@ Cada skill termina con este cierre. No la des por terminada hasta cumplirlo.
    - Tras /feature: la siguiente pendiente del mismo hito.
    - Hito completado: si es publicable (hito 2 en adelante), `/publicar <versión>`;
      si es el prototipo, la primera del siguiente hito (publicar solo si el
-     usuario quiere probarlo con amigos). Explica la opción.
+     usuario quiere probarlo con amigos). Explica la opción y avisa de que, si
+     el siguiente hito está en esbozo, esa `/feature` empezará detallándolo.
    - Tras /publicar: la primera pendiente del siguiente hito, y revisar las
      métricas del Creator Hub pasados unos días.
-   - BACKLOG sin pendientes: proponer con el usuario el siguiente hito.
+   - BACKLOG sin pendientes: revisar Propuestas y proponer con el usuario el
+     siguiente hito.
    - Si hay mejoras pendientes en `docs/MEJORAS-PROCESO.md`, recuerda que se
      aplican con `/mejorar` en una sesión abierta en `C:\roblox-games\roblox-template`.
    Preparación típica: para /feature, Studio abierto con el lugar del juego

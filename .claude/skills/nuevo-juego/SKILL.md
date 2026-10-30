@@ -79,11 +79,15 @@ Cierra con el alcance de la v1: qué entra y qué queda fuera explícitamente.
 ## Fase 5 · Documentos
 1. Redacta docs/DESIGN.md con la plantilla (incluida la investigación y las
    métricas objetivo). Enséñaselo y corrige hasta que lo apruebe.
-2. Deriva docs/BACKLOG.md: funcionalidades pequeñas y verticales (F-001…),
-   cada una con criterios de aceptación comprobables.
-   - Hito 1: prototipo gris jugable con el bucle principal, sin arte.
-   - Hito 2: retención mínima (guardado, progresión, recompensa diaria) y
-     primeras compras.
+2. Deriva docs/BACKLOG.md con la plantilla. Es un punto de partida, no un plan
+   cerrado: cambiará al jugar.
+   - Hito 1, detallado: prototipo gris jugable con el bucle principal, sin arte.
+     Funcionalidades pequeñas y verticales (F-001…), cada una con criterios de
+     aceptación comprobables.
+   - Hito 2 en adelante, en esbozo (una línea por funcionalidad): retención
+     mínima (guardado, progresión, recompensa diaria) y primeras compras; luego
+     contenido y eventos. Se detallan al empezar cada hito.
+   - Lo que quedó fuera de la v1 y merece la pena, a Propuestas.
 3. Pon el nombre del juego en CLAUDE.md (título y repo) y en el campo "name" de
    default.project.json. Registra en docs/DECISIONS.md las decisiones de diseño
    y por qué se descartaron los otros conceptos.

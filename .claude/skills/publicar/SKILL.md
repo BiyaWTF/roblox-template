@@ -17,6 +17,8 @@ Vamos a publicar la versión $ARGUMENTS. Claude comprueba; el usuario publica.
 4. Lista para el usuario: nombre, descripción, icono 512x512, miniaturas,
    género, dispositivos, game passes y productos creados y con precio.
 5. El usuario publica desde Studio (Archivo → Publicar en Roblox).
-6. Commit, etiqueta git v$ARGUMENTS, push con etiquetas y nota en DECISIONS.
-7. Sigue «Fin de cada sesión» de .claude/rules/proceso.md: confirma que todo está hecho y di
+6. Lo que salga (ideas, opiniones de quien lo pruebe) va a Propuestas de
+   docs/BACKLOG.md.
+7. Commit, etiqueta git v$ARGUMENTS, push con etiquetas y nota en DECISIONS.
+8. Sigue «Fin de cada sesión» de .claude/rules/proceso.md: confirma que todo está hecho y di
    cuál es el siguiente paso.
