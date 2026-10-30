@@ -38,7 +38,10 @@ Mejora del proceso. Mejora adicional indicada por el usuario: "$ARGUMENTS" (pued
 7. Con OK del usuario: `.\tools\sync-proceso.ps1 -Aplicar -Push`.
 8. Actualiza el documento del flujo: fuente `C:\roblox-games\docs\flujo-roblox.html`,
    publicado en https://claude.ai/artifact/QZ3cVQTirTrr52QzPXXmVW. Léelo antes con
-   la herramienta Artifact (acción read) y publica con su `url`. Actualiza las
-   secciones afectadas y añade una entrada al registro de cambios.
+   la herramienta Artifact (acción read) y publica con su `url`. Ejecuta
+   `.\tools\actualizar-doc-flujo.ps1` para refrescar los bloques de código desde
+   los archivos del molde; si añadiste un archivo nuevo, crea antes su bloque.
+   Actualiza a mano las explicaciones afectadas y añade una entrada al registro
+   de cambios.
 9. Cierre según «Fin de cada sesión» de .claude/rules/proceso.md, indicando qué
    juegos quedan por sincronizar.
