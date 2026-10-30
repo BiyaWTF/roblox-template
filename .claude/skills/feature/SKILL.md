@@ -19,9 +19,14 @@ Una funcionalidad por sesión.
    CLAUDE.md). Todo en verde antes de seguir.
 5. Delega en luau-reviewer con la lista de archivos cambiados y la descripción.
    Corrige CRÍTICO y ALTO; comenta con el usuario MEDIO y BAJO.
-6. Pide al usuario que tenga Studio abierto con Rojo conectado (o arranca
-   rojo serve y espera su confirmación). Delega en studio-tester con el nombre del
-   lugar y los criterios. Si algo falla, vuelve al paso 3.
+6. Prueba en Studio:
+   a. Arranca tú `rojo serve` en segundo plano en la raíz del proyecto y comprueba
+      en su salida que escucha (puerto 34872 por defecto). No pidas al usuario que
+      conecte hasta verlo.
+   b. Pide al usuario que abra Studio con el lugar del juego y pulse
+      Plugins → Rojo → Connect → Accept. Espera su confirmación.
+   c. Delega en studio-tester con el nombre del lugar y los criterios. Si algo
+      falla, vuelve al paso 3.
 7. Pide al usuario que lo juegue. Aplica sus cambios y repite 4-6 si son de código.
 8. Cierre, con OK del usuario: marca la funcionalidad como hecha en BACKLOG (con
    notas), añade a DECISIONS lo decidido, commit en español y push.
